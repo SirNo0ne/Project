@@ -70,7 +70,8 @@ input#WhatsApp {
     margin: 10px;
     border-radius: 5px;
   }
-  .fa-whatsapp{
+#whatapp-icon{
     font-size: 33px;
     color: white;
   }
+
