@@ -1,0 +1,63 @@
+/* Import Font Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* Format Style */
+* {
+    /*box-sizing: border-box;*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif, verdana;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /*overflow: hidden;*/
+    /*overflow: scroll;*/
+    background: linear-gradient(to right, #9c27b0, #8ecdff);
+}
+nav{
+    width: 90%;
+    position: sticky;
+    margin: 5px auto;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1%;
+}
+.container-center{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.container-center img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.container-center img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+}
+.container-center video{
+    max-width: 100%;
+    height: auto;
+}
+.container-form{
+    display:flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    align-items: flex-start;
+}
+.phone-item{
+    width: 100%;
+}
+.container-success{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+}
