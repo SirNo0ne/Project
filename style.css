@@ -61,3 +61,16 @@ nav{
     align-items: center;
     justify-content: center;
 }
+.red{
+    color: rgb(168, 147, 147);
+}
+input#WhatsApp {
+    width: 26px;
+    height: 26px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  .fa-whatsapp{
+    font-size: 33px;
+    color: white;
+  }
