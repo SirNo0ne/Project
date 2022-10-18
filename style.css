@@ -30,6 +30,12 @@ nav{
     display: flex;
     flex-direction: column;
 }
+.title{
+    margin: 20px 0px 0px 0px;
+}
+div label{
+    vertical-align: super;
+}
 .container-center img{
     max-width: 100%;
     height: auto;
@@ -54,6 +60,20 @@ nav{
 .phone-item{
     width: 100%;
 }
+.col-md-6{
+    margin-top: 3px;
+}
+.btn-primary{
+    background-color: #44b4c4;
+    border-color: white;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.col-md-12{
+    display: flex;
+    justify-content: center;
+}  
 .container-success{
     display: flex;
     flex-direction: column;
@@ -73,5 +93,12 @@ input#WhatsApp {
 #whatapp-icon{
     font-size: 33px;
     color: white;
-  }
+}
+/*
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+*/
+
 
